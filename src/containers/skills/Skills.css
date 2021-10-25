@@ -6,8 +6,8 @@
 .skills-header {
   font-size: 60px;
   line-height: normal;
-  font-family: "Google Sans Regular";
-  text-align: center;
+  font-family: "Montserat";
+  text-align: left;
 }
 
 .skills-text {
@@ -16,7 +16,7 @@
 
 .skills-text-div {
   margin-left: 50px;
-  font-family: "Google Sans Regular";
+  font-family: "Montserat";
 }
 
 .skills-main-div > * {
@@ -33,7 +33,7 @@
 .skills-heading {
   font-size: 56px;
   font-weight: 400;
-  font-family: "Google Sans Regular";
+  font-family: "Montserat";
   line-height: normal;
 }
 

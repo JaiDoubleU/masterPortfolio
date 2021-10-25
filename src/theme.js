@@ -2,7 +2,7 @@
 export const blueTheme = {
   body: "#EDF9FE",
   text: "#001C55",
-  highlight: "#A6E1FA",
+  highlight: "#81d3fe",
   dark: "#00072D",
   secondaryText: "#7F8DAA",
   imageHighlight: "#0E6BA8",
@@ -60,15 +60,15 @@ export const redTheme = {
 };
 
 export const blackTheme = {
-  body: "#E5E5E5",
-  text: "#14213d",
-  highlight: "#ffffff",
+  body: "lightgrey",
+  text: "#eee",
+  highlight: "#666",
   dark: "#000000",
-  secondaryText: "#5A6377",
+  secondaryText: "#333333",
   imageHighlight: "#fca311",
   compImgHighlight: "#E6E6E6",
   jacketColor: "#8d99ae",
-  headerColor: "#fca31177",
+  headerColor: "#000000",
 };
 
 export const pinkTheme = {

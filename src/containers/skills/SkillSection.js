@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
+// import artistAnimation2 from '../../assets/images/lottiefiles/artist-lottie-2.json';
+// import DisplayLottie from '../../components/displayLottie/DisplayLottie';
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 import DataScienceImg from "./DataScienceImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
+// import { illustration } from '../../portfolio';
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
@@ -32,6 +35,15 @@ class SkillSection extends Component {
                     alt="Ashutosh is Analysing Data"
                     src={require(`../../assests/images/${skill.imagePath}`)}
                   ></img> */}
+
+                  {/* {illustration.animated ? (
+                        <DisplayLottie animationData={artistAnimation2} />
+                      ) : (
+                        <img
+                      alt="saad sitting on table"
+                      src={require("../../assets/images/feelingProud.svg")}
+                    ></img> 
+                      )} */}
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
               </Fade>

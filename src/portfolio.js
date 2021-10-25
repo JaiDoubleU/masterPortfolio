@@ -7,44 +7,54 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
-  description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  title: "Carrie Cuthbert Art",
+  description: "Bringing your ideas to life.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Carrie Cuthbert Portfolio",
     type: "website",
     url: "http://ashutoshhathidara.com/",
   },
 };
 
 //Home Page
+
+const illustration = {
+  animated: true, // set to false to use static SVG
+  animationDistanceSmall: "20px",
+  animationDistance: "30px",
+  animationDistanceLarge: "50px",
+  upAnimationDuration: 1000,
+  leftRightAnimationDuration: 2000,
+};
+
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Welcome ",
+  logo_name: "CarrieCuthbert",
+  nickname: "Official website of Canadian artist Carrie Cuthbert. ",
+  showNickname: true,
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "“There are painters who transform the sun to a yellow spot, but there are others who with the help of their art and their intelligence, transform a yellow spot into sun” – Pablo Picasso",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+  mailto: "mailto:carrielynncuthbert@gmail.com",
 };
 
 const socialMediaLinks = [
   /* Your Social Media Link */
   // github: "https://github.com/ashutosh1919",
   // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
+  //gmail: "carrielynncuthbert@gmail.com",
   // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
+  //facebook: "https://www.facebook.com/carrie.heffernan.52/",
   // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
+  //instagram: "https://www.instagram.com/carrie.cuthbert/"
 
-  {
-    name: "Github",
-    link: "https://github.com/ashutosh1919",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
-  },
+  // {
+  //   name: "Github",
+  //   link: "https://github.com/ashutosh1919",
+  //   fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+  //   backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+  // },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
@@ -59,25 +69,25 @@ const socialMediaLinks = [
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:carrielynncuthbert@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://twitter.com/carrielynncuthbert",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/carrie.heffernan.52",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/carrie.cuthbert/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -86,8 +96,8 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
+      title: "An artist with a dash of spice",
+      fileName: "ArtistWithFlair",
       skills: [
         "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
         "⚡ Experience of working with Computer Vision and NLP projects",
@@ -126,195 +136,195 @@ const skills = {
         },
       ],
     },
-    {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
-      ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
-      ],
-    },
+    // {
+    //   title: "Full Stack Development",
+    //   fileName: "FullStackImg",
+    //   skills: [
+    //     "⚡ Building resposive website front end using React-Redux",
+    //     "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+    //     "⚡ Creating application backend in Node, Express & Flask",
+    //   ],
+    // softwareSkills: [
+    //   {
+    //     skillName: "HTML5",
+    //     fontAwesomeClassname: "simple-icons:html5",
+    //     style: {
+    //       color: "#E34F26",
+    //     },
+    //   },
+    //   {
+    //     skillName: "CSS3",
+    //     fontAwesomeClassname: "fa-css3",
+    //     style: {
+    //       color: "#1572B6",
+    //     },
+    //   },
+    //   {
+    //     skillName: "Sass",
+    //     fontAwesomeClassname: "simple-icons:sass",
+    //     style: {
+    //       color: "#CC6699",
+    //     },
+    //   },
+    //   {
+    //     skillName: "JavaScript",
+    //     fontAwesomeClassname: "simple-icons:javascript",
+    //     style: {
+    //       backgroundColor: "#000000",
+    //       color: "#F7DF1E",
+    //     },
+    //   },
+    //   {
+    //     skillName: "ReactJS",
+    //     fontAwesomeClassname: "simple-icons:react",
+    //     style: {
+    //       color: "#61DAFB",
+    //     },
+    //   },
+    //   {
+    //     skillName: "NodeJS",
+    //     fontAwesomeClassname: "simple-icons:node-dot-js",
+    //     style: {
+    //       color: "#339933",
+    //     },
+    //   },
+    //   {
+    //     skillName: "NPM",
+    //     fontAwesomeClassname: "simple-icons:npm",
+    //     style: {
+    //       color: "#CB3837",
+    //     },
+    //   },
+    //   {
+    //     skillName: "Yarn",
+    //     fontAwesomeClassname: "simple-icons:yarn",
+    //     style: {
+    //       color: "#2C8EBB",
+    //     },
+    //   },
+    //   {
+    //     skillName: "Gatsby",
+    //     fontAwesomeClassname: "simple-icons:gatsby",
+    //     style: {
+    //       color: "#663399",
+    //     },
+    //   },
+    //   {
+    //     skillName: "Flutter",
+    //     fontAwesomeClassname: "simple-icons:flutter",
+    //     style: {
+    //       color: "#02569B",
+    //     },
+    //   },
+    // ],
+    // },
+    // {
+    //   title: "Cloud Infra-Architecture",
+    //   fileName: "CloudInfraImg",
+    //   skills: [
+    //     "⚡ Experience working on multiple cloud platforms",
+    //     "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+    //     "⚡ Deploying deep learning models on cloud to use on mobile devices",
+    //     "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "GCP",
+    //       fontAwesomeClassname: "simple-icons:googlecloud",
+    //       style: {
+    //         color: "#4285F4",
+    //       },
+    //     },
+    //     {
+    //       skillName: "AWS",
+    //       fontAwesomeClassname: "simple-icons:amazonaws",
+    //       style: {
+    //         color: "#FF9900",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Azure",
+    //       fontAwesomeClassname: "simple-icons:microsoftazure",
+    //       style: {
+    //         color: "#0089D6",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Firebase",
+    //       fontAwesomeClassname: "simple-icons:firebase",
+    //       style: {
+    //         color: "#FFCA28",
+    //       },
+    //     },
+    //     {
+    //       skillName: "PostgreSQL",
+    //       fontAwesomeClassname: "simple-icons:postgresql",
+    //       style: {
+    //         color: "#336791",
+    //       },
+    //     },
+    //     {
+    //       skillName: "MongoDB",
+    //       fontAwesomeClassname: "simple-icons:mongodb",
+    //       style: {
+    //         color: "#47A248",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Docker",
+    //       fontAwesomeClassname: "simple-icons:docker",
+    //       style: {
+    //         color: "#1488C6",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Kubernetes",
+    //       fontAwesomeClassname: "simple-icons:kubernetes",
+    //       style: {
+    //         color: "#326CE5",
+    //       },
+    //     },
+    //   ],
+    // },
+    //   {
+    //     title: "UI/UX Design",
+    //     fileName: "DesignImg",
+    //     skills: [
+    //       "⚡ Designing highly attractive user interface for mobile and web applications",
+    //       "⚡ Customizing logo designs and building logos from scratch",
+    //       "⚡ Creating the flow of application functionalities to optimize user experience",
+    //     ],
+    //     softwareSkills: [
+    //       {
+    //         skillName: "Adobe XD",
+    //         fontAwesomeClassname: "simple-icons:adobexd",
+    //         style: {
+    //           color: "#FF2BC2",
+    //         },
+    //       },
+    //       {
+    //         skillName: "Figma",
+    //         fontAwesomeClassname: "simple-icons:figma",
+    //         style: {
+    //           color: "#F24E1E",
+    //         },
+    //       },
+    //       {
+    //         skillName: "Adobe Illustrator",
+    //         fontAwesomeClassname: "simple-icons:adobeillustrator",
+    //         style: {
+    //           color: "#FF7C00",
+    //         },
+    //       },
+    //       {
+    //         skillName: "Inkscape",
+    //         fontAwesomeClassname: "simple-icons:inkscape",
+    //         style: {
+    //           color: "#000000",
+    //         },
+    //       },
+    //     ],
+    //   },
   ],
 };
 
@@ -633,11 +643,10 @@ const experience = {
   ],
 };
 
-// Projects Page
-const projectsHeader = {
-  title: "Projects",
-  description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+// Gallery Page
+const galleryHeader = {
+  title: "Gallery",
+  description: "My paintings can be viewed  in person anytime by appointment.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -679,6 +688,7 @@ const contactPageData = {
 export {
   settings,
   seo,
+  illustration,
   greeting,
   socialMediaLinks,
   skills,
@@ -686,7 +696,7 @@ export {
   degrees,
   certifications,
   experience,
-  projectsHeader,
+  galleryHeader,
   publicationsHeader,
   contactPageData,
 };

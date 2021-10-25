@@ -6,13 +6,13 @@
 }
 
 .card-title {
-  font-family: "Google Sans Medium";
+  font-family: "Montserat, sans-serif";
   font-size: 23px;
   /* color: #000000; */
 }
 
 .card-subtitle {
-  font-family: "Google Sans Medium";
+  font-family: "Montserat, sans-serif";
   font-size: 18px;
   /* color: #000000; */
   margin-top: 7px;
@@ -48,7 +48,7 @@
   width: 20%;
 }
 .duration {
-  font-family: "Google Sans Regular";
+  font-family: "Montserat";
   font-size: 16px;
   /* color: #212121; */
   padding-right: 10px;
@@ -68,7 +68,7 @@
 .content-list {
   padding-left: 10px;
   padding-right: 10px;
-  font-family: "Google Sans Regular";
+  font-family: "Montserat";
 }
 
 .card-body {
@@ -99,7 +99,7 @@
 .btn {
   margin: 0px;
   padding: 0px;
-  font-family: "Google Sans Regular";
+  font-family: "Montserat";
   /* color: #000000; */
 }
 

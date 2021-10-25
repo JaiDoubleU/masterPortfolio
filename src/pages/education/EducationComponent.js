@@ -12,6 +12,9 @@ import { Fade } from "react-reveal";
 
 class Education extends Component {
   render() {
+    // if (!Educations.display) {
+    //   return null;
+    // }
     const theme = this.props.theme;
     return (
       <div className="education-main">
@@ -21,7 +24,7 @@ class Education extends Component {
             <div className="heading-div">
               <div className="heading-img-div">
                 {/* <img
-									src={require("../../assests/images/education.svg")}
+									src={require("../../assets/images/education.svg")}
 									alt=""
 								/> */}
                 <EducationImg theme={theme} />

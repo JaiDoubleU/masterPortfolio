@@ -6,7 +6,7 @@ import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
 import { openSource } from "../../portfolio";
 
-export default function Projects() {
+export default function Gallery() {
   const [repo, setrepo] = useState([]);
 
   useEffect(() => {
@@ -74,7 +74,7 @@ export default function Projects() {
         })}
       </div>
       <Button
-        text={"More Projects"}
+        text={"More"}
         className="project-button"
         href="https://github.com/ashutosh1919"
         newTab={true}
