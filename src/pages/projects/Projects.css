@@ -33,7 +33,7 @@
 .projects-heading-text {
   font-size: 56px;
   font-weight: 400;
-  font-family: "Montserat, sans-serif";
+  font-family: "Raleway, sans-serif";
   line-height: 1.1;
   text-align: center;
   margin-top: 80px;
@@ -41,7 +41,7 @@
 
 .projects-heading-sub-text {
   font-size: 30px;
-  font-family: "Montserat";
+  font-family: "Raleway";
   text-align: center;
   margin-bottom: 10px;
 }
@@ -52,11 +52,11 @@
   margin-top: 0px;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: "Montserat, sans-serif";
+  font-family: "Raleway, sans-serif";
 }
 .publications-heading-text-div {
   text-align: center;
-  font-family: "Montserat";
+  font-family: "Raleway";
   margin-top: 70px;
 }
 

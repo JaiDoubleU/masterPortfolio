@@ -24,7 +24,7 @@
   display: inline-block;
   margin-bottom: 0px;
   font-size: 12px;
-  font-family: "Montserat";
+  font-family: "Raleway";
   padding: 2px;
   color: #fff;
   border-radius: 10%;
@@ -36,7 +36,7 @@
   margin-bottom: 0px;
   margin-left: 10px;
   font-size: 12px;
-  font-family: "Montserat";
+  font-family: "Raleway";
 }
 
 .issue-header {
@@ -62,7 +62,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 10px;
-  font-family: "Montserat";
+  font-family: "Raleway";
   color: #808080;
 }
 
@@ -74,7 +74,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 16px;
-  font-family: "Montserat";
+  font-family: "Raleway";
 }
 
 .issue-title > a {
@@ -127,7 +127,7 @@
   text-align: left;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: "Montserat";
+  font-family: "Raleway";
   font-size: 12px;
   margin-top: 5px;
 }
@@ -148,7 +148,7 @@
   margin-bottom: 0px;
   color: #28a745;
   font-size: 14px;
-  font-family: "Montserat";
+  font-family: "Raleway";
 }
 
 .deletions-files {
@@ -157,7 +157,7 @@
   margin-bottom: 0px;
   color: #d73a49;
   font-size: 14px;
-  font-family: "Montserat";
+  font-family: "Raleway";
 }
 
 .owner-img-div {

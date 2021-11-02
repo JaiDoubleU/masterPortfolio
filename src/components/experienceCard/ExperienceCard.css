@@ -24,7 +24,7 @@
 }
 
 .experience-card-title {
-  font-family: "Montserat";
+  font-family: "Raleway";
   margin-top: 10px;
   margin-bottom: 2px;
   margin-left: 0px;
@@ -33,13 +33,13 @@
 }
 
 .experience-card-company {
-  font-family: "Montserat";
+  font-family: "Raleway";
   margin: 0;
   text-align: left;
 }
 
 .experience-card-duration {
-  font-family: "Montserat";
+  font-family: "Raleway";
   margin-top: 10px;
   margin-bottom: 2px;
   margin-left: 0px;
@@ -61,7 +61,7 @@
 }
 
 .experience-card-location {
-  font-family: "Montserat";
+  font-family: "Raleway";
   margin: 0;
   text-align: right;
   color: #868e96;
@@ -72,7 +72,7 @@
   margin-left: 10px;
   text-align: justify;
   margin-right: 20px;
-  font-family: "Montserat";
+  font-family: "Raleway";
 }
 
 .experience-card-company > a {

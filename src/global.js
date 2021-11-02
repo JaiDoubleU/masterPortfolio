@@ -12,7 +12,7 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
     display: flex;
-    // flex-direction: column;
+   flex-direction: column;
     // justify-content: center;
     // height: 100vh;
     // margin: 0;

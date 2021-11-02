@@ -29,8 +29,8 @@ const illustration = {
 
 const greeting = {
   title: "Welcome ",
-  logo_name: "CarrieCuthbert",
-  nickname: "Official website of Canadian artist Carrie Cuthbert. ",
+  logo_name: "Carrie Cuthbert",
+  nickname: "Official website of  artist Carrie Cuthbert. ",
   showNickname: true,
   subTitle:
     "“There are painters who transform the sun to a yellow spot, but there are others who with the help of their art and their intelligence, transform a yellow spot into sun” – Pablo Picasso",
@@ -661,9 +661,9 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "carrie_headshot.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Catch up with me on the following social media or drop me an email.   I will reply within 24 hours. ",
   },
   blogSection: {
     title: "Blogs",

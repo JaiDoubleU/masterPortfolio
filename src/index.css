@@ -31,26 +31,37 @@
     url("./assets/fonts/GoogleSans-Medium.ttf") format("woff");
 }
 @font-face {
-  font-family: "Montserat, sans-serif Italic";
-  src: local("Montserat, sans-serif Italic"),
-    url("./assets/fonts/GoogleSans-MediumItalic.ttf") format("woff");
+  font-family: "Raleway";
+  font-weight: 400;
+  src: local("Raleway"),
+    url("./assets/fonts/Raleway-Regular.ttf") format("woff");
 }
 @font-face {
-  font-family: "Montserat";
-  src: local("Montserat"),
-    url("./assets/fonts/GoogleSans-Regular.ttf") format("woff");
+  font-family: " Raleway Light";
+  font-weight: 300;
+  src: local(" Raleway Light"),
+    url("./assets/fonts/Raleway-Light.ttf") format("woff");
 }
+
+@font-face {
+  font-family: "Raleway SemiBold";
+  font-weight: 500;
+  src: local("Raleway SemiBold"),
+    url("./assets/fonts/Raleway-SemiBold.ttf") format("woff");
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 html,
 body {
+  font-family: "Raleway";
   scroll-behavior: smooth;
 }
 body {
   margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  font: 19px / 23px "Raleway Light", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -52,7 +52,7 @@
   white-space: nowrap;
   text-overflow: ellipsis;
   color: rgb(36, 41, 46);
-  font-family: "Montserat";
+  font-family: "Raleway";
   margin-bottom: 0.75rem;
   font-size: 25px;
   font-weight: 700;
@@ -70,7 +70,7 @@
   overflow: hidden;
   text-align: left;
   display: -webkit-box;
-  font-family: "Montserat";
+  font-family: "Raleway";
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   margin-top: 0.8rem;
@@ -83,7 +83,7 @@
 
 .repo-creation-date {
   margin: 0;
-  font-family: "Montserat";
+  font-family: "Raleway";
   font-weight: 400;
   margin-left: 0px;
   margin-right: auto;

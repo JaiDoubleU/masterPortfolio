@@ -34,7 +34,7 @@
   margin-top: 3rem;
   font-size: 56px;
   line-height: 1;
-  font-family: "Montserat";
+  font-family: "Raleway";
   font-weight: 400;
   font-style: normal;
 }
@@ -42,16 +42,16 @@
 .greeting-nickname {
   font-size: 16px;
   line-height: 2;
-  font-family: "Montserat";
+  font-family: "Raleway";
   font-style: normal;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .greeting-text-p {
   font-size: 20px;
   line-height: 1.4;
   margin-right: 40px;
-  font-family: "Montserat";
+  font-family: "Raleway";
   font-style: italic;
 }
 
@@ -60,6 +60,14 @@
   height: auto;
 }
 
+.greeting-image-div > .carrie-profile-image.hideMobile {
+  display: block;
+}
+
+.greeting-nickname .carrie-profile-image.showMobile {
+  display: none;
+  margin: 0 auto;
+}
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
@@ -75,11 +83,11 @@
   }
   .greeting-text {
     font-size: 30px;
-    margin-top: 0px;
+    margin-top: 1rem;
     text-align: center;
   }
   .greeting-nickname {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
   }
   .greeting-text-p {
@@ -96,5 +104,13 @@
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+
+  .greeting-image-div > .carrie-profile-image.hideMobile {
+    display: none;
+  }
+  .greeting-nickname .carrie-profile-image.showMobile {
+    display: block;
+    margin: 0 auto;
   }
 }

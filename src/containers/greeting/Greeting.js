@@ -5,7 +5,10 @@ import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { illustration, greeting } from "../../portfolio";
+import { contactPageData } from "../../portfolio.js";
 import { Fade } from "react-reveal";
+
+const ContactData = contactPageData.contactSection;
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -26,6 +29,14 @@ export default function Greeting(props) {
                 style={{ color: theme.secondaryText }}
               >
                 {greeting.nickname}
+
+                <div className="greeting-image-div">
+                  <img
+                    class="carrie-profile-image showMobile"
+                    src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
+                    alt=""
+                  />
+                </div>
               </div>
               <p
                 className="greeting-text-p subTitle"
@@ -34,15 +45,6 @@ export default function Greeting(props) {
                 {greeting.subTitle}
               </p>
               <SocialMedia theme={theme} />
-              {/* <div className="portfolio-repo-btn-div">
-                <Button
-                  text="⭐ Star Me On Github"
-                  newTab={true}
-                  href={greeting.portfolio_repository}
-                  theme={theme}
-                  className="portfolio-repo-btn"
-                />
-              </div> */}
               {
                 <div className="button-greeting-div">
                   <Button
@@ -60,16 +62,11 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={artistAnimation} />
-            ) : (
-              <img
-                alt="saad sitting on table"
-                src={require("../../assets/images/feelingProud.svg")}
-              ></img>
-            )}
-
-            {/* <FeelingProud theme={theme} /> */}
+            <img
+              class="carrie-profile-image hideMobile"
+              src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
+              alt=""
+            />
           </div>
         </div>
       </div>
