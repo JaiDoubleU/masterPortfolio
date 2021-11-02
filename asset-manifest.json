@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/masterPortfolio/static/css/main.3d13bbf6.chunk.css",
-    "main.js": "/masterPortfolio/static/js/main.65827cc4.chunk.js",
-    "main.js.map": "/masterPortfolio/static/js/main.65827cc4.chunk.js.map",
+    "main.js": "/masterPortfolio/static/js/main.7023d4c7.chunk.js",
+    "main.js.map": "/masterPortfolio/static/js/main.7023d4c7.chunk.js.map",
     "runtime-main.js": "/masterPortfolio/static/js/runtime-main.38f78fa5.js",
     "runtime-main.js.map": "/masterPortfolio/static/js/runtime-main.38f78fa5.js.map",
     "static/js/2.eac50080.chunk.js": "/masterPortfolio/static/js/2.eac50080.chunk.js",
     "static/js/2.eac50080.chunk.js.map": "/masterPortfolio/static/js/2.eac50080.chunk.js.map",
     "index.html": "/masterPortfolio/index.html",
-    "precache-manifest.6750977f97dc1b13a5024cb363240b0c.js": "/masterPortfolio/precache-manifest.6750977f97dc1b13a5024cb363240b0c.js",
+    "precache-manifest.d834f3467cb2d80d08b0226197e5e876.js": "/masterPortfolio/precache-manifest.d834f3467cb2d80d08b0226197e5e876.js",
     "service-worker.js": "/masterPortfolio/service-worker.js",
     "static/css/main.3d13bbf6.chunk.css.map": "/masterPortfolio/static/css/main.3d13bbf6.chunk.css.map",
     "static/media/index.css": "/masterPortfolio/static/media/Raleway-SemiBold.8a192102.ttf",
@@ -58,6 +58,6 @@
     "static/js/runtime-main.38f78fa5.js",
     "static/js/2.eac50080.chunk.js",
     "static/css/main.3d13bbf6.chunk.css",
-    "static/js/main.65827cc4.chunk.js"
+    "static/js/main.7023d4c7.chunk.js"
   ]
 }
