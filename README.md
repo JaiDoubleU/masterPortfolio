@@ -1,9 +1,9 @@
-<p align="center"> 
+<!-- <p align="center"> 
     <img src="images/masterportfolio-banner-light.png" align="center" height="150"></img>
-</p>
+</p> -->
 
-<h1 align="center"> Software Developer Master Portfolio 🔥 </h1> 
-<h3 align="center"> A clean, beautiful, responsive and 100% customizable portfolio <br /> template for Software Developers! </h3>
+<h1 align="center">Carrie's Portfolio</h1> 
+
 
 <p align="center">
   <a href="http://hits.dwyl.com/ashutosh1919/masterPortfolio"><img alt="HitCounts" src="http://hits.dwyl.com/ashutosh1919/masterPortfolio.svg" /></a>
@@ -22,25 +22,6 @@
   <a href="https://img.shields.io/badge/price-free-ff69b4"><img alt="Price" src="https://img.shields.io/badge/price-free-ff69b4?style=flat-square" /></a>
 </p>
 <p align="center">If you want to discuss about something, then you can ask on my <a href="https://discord.com/invite/GkcbM5bwZr">Discord Server</a>.</p>
-
-<p align="center"> 
-    <a href="https://ashutosh1919.github.io" target="_blank">
-    <img src="images/masterPortfolioThemes.png"></img>
-  </a>
-</p>
-
-:star: Star us on GitHub — it helps!
-
-# Sections 📚
-
-✔️ Summary and About me\
-✔️ Skills \
-✔️ Open Source Projects Connected with Github\
-✔️ Experience\
-✔️ Certifications 🏆\
-✔️ Blogs\
-✔️ Education\
-✔️ Contact me
 
 To view a live example, **[click here](https://ashutosh1919.github.io/)**
 
