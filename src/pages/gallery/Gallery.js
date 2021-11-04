@@ -6,7 +6,7 @@ import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import { galleryHeader, paintingsHeader } from "../../portfolio.js";
 // import ProjectsData from "../../shared/opensource/projects.json";
-import PaintingData from "../../shared/Paintings.json";
+import PaintingData from "../../shared/paintings.json";
 import "./Gallery.css";
 import GalleryImg from "./GalleryImg";
 
