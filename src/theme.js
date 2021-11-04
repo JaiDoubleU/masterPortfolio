@@ -8,7 +8,7 @@ export const blueTheme = {
   imageHighlight: "#0E6BA8",
   compImgHighlight: "#E6E6E6",
   jacketColor: "#0A2472",
-  headerColor: "#0E6BA877",
+  headerColor: "#0E6BA885",
 };
 
 export const brownTheme = {

@@ -3,11 +3,11 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Button from "../../components/button/Button";
+// import Button from "../../components/button/Button";
 
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
+import { contactPageData } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
 

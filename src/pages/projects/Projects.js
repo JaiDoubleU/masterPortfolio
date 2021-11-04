@@ -6,7 +6,7 @@ import PublicationCard from "../../components/publicationsCard/PublicationCard";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
-import { galleryHeader, publicationsHeader } from "../../portfolio.js";
+import { projectsHeader, publicationsHeader } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import PublicationData from "../../shared/opensource/publications.json";
 import "./Projects.css";
@@ -33,13 +33,13 @@ class Projects extends Component {
                   className="projects-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {galleryHeader.title}
+                  {projectsHeader.title}
                 </h1>
                 <p
                   className="projects-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {galleryHeader["description"]}
+                  {projectsHeader["description"]}
                 </p>
               </div>
             </div>

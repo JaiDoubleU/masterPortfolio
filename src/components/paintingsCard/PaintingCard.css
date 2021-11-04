@@ -1,0 +1,76 @@
+.painting-card-div {
+  color: rgb(88, 96, 105);
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  padding: 2rem;
+  cursor: pointer;
+}
+.painting-card-div:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+}
+
+.painting {
+  border: 4px solid #333;
+  border-radius: 3px;
+}
+
+.painting-name-div {
+  display: flex;
+  align-items: center;
+}
+
+.painting-name {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: rgb(36, 41, 46);
+  font-family: "Raleway";
+  margin-bottom: 0.75rem;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  overflow: hidden;
+  line-height: 1.4;
+  margin: 0px;
+}
+
+.painting-description {
+  overflow: hidden;
+  text-align: left;
+  display: -webkit-box;
+  font-family: "Raleway";
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin-top: 0.8rem;
+}
+
+.painting-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.painting-creation-date {
+  margin: 0;
+  font-family: "Raleway";
+  font-weight: 400;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .painting-name {
+    font-size: 16px;
+  }
+
+  .painting-description {
+    font-size: 14px;
+  }
+
+  .painting-details {
+    flex-direction: column;
+  }
+
+  .painting-creation-date {
+    font-size: 14px;
+  }
+}

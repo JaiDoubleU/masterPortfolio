@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Route, Switch, HashRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
+import Gallery from "../pages/gallery/Gallery";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
@@ -31,6 +32,13 @@ export default class Main extends Component {
                 render={(props) => <Home {...props} theme={this.props.theme} />}
               />
               <Route
+                path="/gallery"
+                exact
+                render={(props) => (
+                  <Gallery {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
                 path="/experience"
                 exact
                 render={(props) => (
@@ -59,6 +67,12 @@ export default class Main extends Component {
                 path="/splash"
                 render={(props) => (
                   <Splash {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/gallery"
+                render={(props) => (
+                  <Gallery {...props} theme={this.props.theme} />
                 )}
               />
               <Route
@@ -129,6 +143,12 @@ export default class Main extends Component {
                 path="/projects"
                 render={(props) => (
                   <Projects {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/gallery"
+                render={(props) => (
+                  <Gallery {...props} theme={this.props.theme} />
                 )}
               />
             </Switch>

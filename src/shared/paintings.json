@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "id": "painting1",
+      "name": "A walk in the woods with the pups",
+      "url": "https://via.placeholder.com/1080x1200.png",
+      "createdAt": "2020-03-06T16:26:54Z",
+      "description": "This work is a handmade, abstract painting that is experienced both visually and physically. "
+    },
+    {
+      "id": "painting2",
+      "name": "The Boulevard",
+      "url": "https://via.placeholder.com/1080x1200.png",
+      "createdAt": "2020-03-06T16:26:54Z",
+      "description": "This work is an intimate and estranging, documentary landscape painting consisting of only scripted dialogue. "
+    },
+    {
+      "id": "painting3",
+      "name": "A View From the Bottom",
+      "url": "https://via.placeholder.com/1080x1200.png",
+      "createdAt": "2020-03-06T16:26:54Z",
+      "description": "The work deploys the possibility of ongoing interplay between physical site and displacement. "
+    },
+    {
+      "id": "painting4",
+      "name": "Miss Maple",
+      "url": "https://via.placeholder.com/1080x1200.png",
+      "createdAt": "2020-03-06T16:26:54Z",
+      "description": "This work is a resonating and contrasting, interactive set of larger-than-life insects "
+    },
+    {
+      "id": "painting5",
+      "name": "1-way Mirrors",
+      "url": "https://via.placeholder.com/1080x1200.png",
+      "createdAt": "2020-03-06T16:26:54Z",
+      "description": "The work deploys the use of encaustic and one-point perspective as turning the mundane into the fantastical. "
+    },
+    {
+      "id": "painting6",
+      "name": "Evian Bottles Meet Cardboard",
+      "url": "https://via.placeholder.com/1080x1200.png",
+      "createdAt": "2020-03-06T16:26:54Z",
+      "description": "This work is a traumatic, cartoonesque world in which death and waste are omnipresent "
+    },
+    {
+      "id": "painting7",
+      "name": "Judicial Documents, Sand & Bras",
+      "url": "https://via.placeholder.com/1080x1200.png",
+      "createdAt": "2020-03-06T16:26:54Z",
+      "description": "This work is arestrained, still-life series of words consisting of tapestries and linens which is reminiscent of wounded defiance."
+    },
+    {
+      "id": "painting8",
+      "name": "upended objects and rooms",
+      "url": "https://via.placeholder.com/1080x1200.png",
+      "createdAt": "2020-03-06T16:26:54Z",
+      "description": "The work deploys Gojira as suggesting innumerable idiosyncrasies of human relations. "
+    }
+  ]
+}
