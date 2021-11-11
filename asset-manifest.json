@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/masterPortfolio/static/css/main.9cfc4400.chunk.css",
+    "main.css": "/masterPortfolio/static/css/main.a5e0b55e.chunk.css",
     "main.js": "/masterPortfolio/static/js/main.1d22e265.chunk.js",
     "main.js.map": "/masterPortfolio/static/js/main.1d22e265.chunk.js.map",
     "runtime-main.js": "/masterPortfolio/static/js/runtime-main.38f78fa5.js",
@@ -8,9 +8,9 @@
     "static/js/2.820ef4fa.chunk.js": "/masterPortfolio/static/js/2.820ef4fa.chunk.js",
     "static/js/2.820ef4fa.chunk.js.map": "/masterPortfolio/static/js/2.820ef4fa.chunk.js.map",
     "index.html": "/masterPortfolio/index.html",
-    "precache-manifest.c490fa141b0347646d209be9ed46fc77.js": "/masterPortfolio/precache-manifest.c490fa141b0347646d209be9ed46fc77.js",
+    "precache-manifest.7775816271f290e6bf50307affcc8d66.js": "/masterPortfolio/precache-manifest.7775816271f290e6bf50307affcc8d66.js",
     "service-worker.js": "/masterPortfolio/service-worker.js",
-    "static/css/main.9cfc4400.chunk.css.map": "/masterPortfolio/static/css/main.9cfc4400.chunk.css.map",
+    "static/css/main.a5e0b55e.chunk.css.map": "/masterPortfolio/static/css/main.a5e0b55e.chunk.css.map",
     "static/media/index.css": "/masterPortfolio/static/media/Raleway-SemiBold.8a192102.ttf",
     "static/media/KananaskisLake.png": "/masterPortfolio/static/media/KananaskisLake.126e5d06.png",
     "static/media/SommeBoulevard.png": "/masterPortfolio/static/media/SommeBoulevard.25a84b15.png",
@@ -60,7 +60,7 @@
   "entrypoints": [
     "static/js/runtime-main.38f78fa5.js",
     "static/js/2.820ef4fa.chunk.js",
-    "static/css/main.9cfc4400.chunk.css",
+    "static/css/main.a5e0b55e.chunk.css",
     "static/js/main.1d22e265.chunk.js"
   ]
 }
