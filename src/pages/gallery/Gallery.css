@@ -64,31 +64,53 @@
   font-size: 56px;
   font-weight: 600;
 }
-.repo-cards-div-main {
+
+.painting-cards-div-main {
+  column-count: 2;
+  column-gap: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.painting-cards-div-main > .painting-card-div {
+  background-color: #eee;
+  display: inline-block;
+  margin: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+  .painting-cards-div-main {
+    column-count: 3;
+    column-gap: 15px;
+  }
+}
+
+/* 
+.painting-cards-div-main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit);
   gap: 1rem 1rem;
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 60px;
-}
+} */
 
 @media (max-width: 1380px) {
-  .gallery-heading-text {
+  /* .gallery-heading-text {
     font-size: 50px;
     margin-top: 80px;
   }
   .gallery-heading-sub-text {
     font-size: 25px;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
-  .gallery-heading-text,
+  /* .gallery-heading-text,
   .paintings-heading-text {
     font-size: 30px;
     margin-top: 20px;
-  }
+  } */
 
   .gallery-heading-sub-text {
     font-size: 20px;
@@ -106,10 +128,10 @@
     text-align: center;
   }
 
-  .repo-cards-div-main {
+  /* .painting-cards-div-main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 30px;
-  }
+  } */
 }

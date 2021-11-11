@@ -20,10 +20,6 @@ class Gallery extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="gallery-heading-div">
               <div className="gallery-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${galleryHeader["avatar_image_path"]}`)}
-											alt=""
-										/> */}
                 <GalleryImg theme={theme} />
               </div>
               <div className="gallery-heading-text-div">
@@ -50,26 +46,26 @@ class Gallery extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="paintings-heading-div">
               <div className="paintings-heading-text-div">
-                <h1
+                {/* <h1
                   className="paintings-heading-text"
                   style={{ color: theme.text }}
                 >
                   {paintingsHeader.title}
-                </h1>
-                <p
+                </h1> */}
+                {/* <p
                   className="gallery-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
                   {paintingsHeader["description"]}
-                </p>
+                </p> */}
               </div>
             </div>
           </Fade>
         </div>
 
-        <div className="repo-cards-div-main">
-          {PaintingData.data.map((repo) => {
-            return <PaintingCard repo={repo} theme={theme} />;
+        <div className="painting-cards-div-main ">
+          {PaintingData.data.originals.map((painting) => {
+            return <PaintingCard painting={painting} theme={theme} />;
           })}
         </div>
 

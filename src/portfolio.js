@@ -628,7 +628,7 @@ const projectsHeader = {
 
 // Gallery Page
 const galleryHeader = {
-  title: "Gallery",
+  title: "Paintings",
   description: "My paintings can be viewed  in person anytime by appointment.",
   avatar_image_path: "projects_image.svg",
 };
