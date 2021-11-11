@@ -4,7 +4,7 @@ import Footer from "../../components/footer/Footer";
 import PaintingCard from "../../components/paintingsCard/PaintingCard";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
-import { galleryHeader, paintingsHeader } from "../../portfolio.js";
+import { galleryHeader } from "../../portfolio.js";
 // import ProjectsData from "../../shared/opensource/projects.json";
 import PaintingData from "../../shared/paintings.json";
 import "./Gallery.css";
