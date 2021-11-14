@@ -18,7 +18,7 @@ export default function PaintingCard({ painting, theme }) {
       >
         <img
           width="55%"
-          class="painting img-responsive"
+          className="painting img-responsive"
           src={require(`../../assets/paintings/${painting["url"]}`)}
           alt=""
         />
@@ -31,6 +31,7 @@ export default function PaintingCard({ painting, theme }) {
           {painting.description}
         </p>
         <div className="painting-details">
+          {painting.price}
           {/* <p
               className="painting-creation-date subTitle"
               style={{ color: theme.secondaryText }}

@@ -21,7 +21,6 @@
 }
 
 .painting-name {
-  white-space: nowrap;
   text-overflow: ellipsis;
   color: rgb(36, 41, 46);
   font-family: "Raleway";

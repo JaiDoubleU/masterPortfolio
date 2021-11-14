@@ -1,4 +1,4 @@
-.gallery-main {
+.prints-main {
   width: 100%;
   text-align: center;
 }
@@ -8,108 +8,127 @@
   margin-right: 5%;
 }
 
-.gallery-heading-div {
+.prints-heading-div {
   display: flex;
 }
 
-.gallery-heading-div > * {
+.prints-heading-div > * {
   flex: 1;
 }
 
-.gallery-heading-img-div {
+.prints-heading-img-div {
   align-items: center;
   justify-content: center;
 }
 
-.gallery-heading-text-div {
-  text-align: center;
+.prints-heading-text-div {
+  text-align: left;
 }
 
-.gallery-heading-img-div > * {
+.prints-heading-img-div > * {
   max-width: 100%;
   height: auto;
 }
 
-.gallery-heading-text {
-  font-size: 56px;
+.prints-heading-text {
+  /* font-size: 56px; */
   font-weight: 400;
   font-family: "Raleway, sans-serif";
-  line-height: 1.1;
-  text-align: center;
-  margin-top: 80px;
+  line-height: 1;
+  /* text-align: center;
+  margin-top: 80px; */
 }
 
-.gallery-heading-sub-text {
+.prints-heading-sub-text {
   font-size: 30px;
   font-family: "Raleway";
   text-align: center;
   margin-bottom: 10px;
 }
 
-.gallery-header-detail-text {
+.prints-header-detail-text {
   font-size: 20px;
-  line-height: 30px;
-  margin-top: 0px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0px;
   font-family: "Raleway, sans-serif";
 }
 .paintings-heading-text-div {
   text-align: center;
   font-family: "Raleway";
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .paintings-heading-text {
   font-size: 56px;
   font-weight: 600;
 }
-.repo-cards-div-main {
+
+.painting-cards-div-main {
+  column-count: 2;
+  column-gap: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.painting-cards-div-main > .painting-card-div {
+  background-color: #eee;
+  display: inline-block;
+  margin: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+  .painting-cards-div-main {
+    column-count: 3;
+    column-gap: 15px;
+  }
+}
+
+/* 
+.painting-cards-div-main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit);
   gap: 1rem 1rem;
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 60px;
-}
+} */
 
 @media (max-width: 1380px) {
-  .gallery-heading-text {
+  /* .prints-heading-text {
     font-size: 50px;
     margin-top: 80px;
   }
-  .gallery-heading-sub-text {
+  .prints-heading-sub-text {
     font-size: 25px;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
-  .gallery-heading-text,
+  /* .prints-heading-text,
   .paintings-heading-text {
     font-size: 30px;
     margin-top: 20px;
-  }
+  } */
 
-  .gallery-heading-sub-text {
+  .prints-heading-sub-text {
     font-size: 20px;
   }
 
-  .gallery-heading-div {
+  .prints-heading-div {
     flex-direction: column;
   }
 
-  .gallery-header-detail-text {
+  .prints-header-detail-text {
     font-size: 16px;
     margin-right: 0px;
     margin-left: 0px;
     line-height: normal;
-    text-align: center;
+    text-align: left;
   }
 
-  .repo-cards-div-main {
+  /* .painting-cards-div-main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 30px;
-  }
+  } */
 }

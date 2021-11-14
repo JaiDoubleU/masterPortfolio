@@ -8,7 +8,8 @@
         "height": 1200,
         "width": 1080,
         "createdAt": "2020-03-06T16:26:54Z",
-        "description": "This work is a handmade, abstract painting that is experienced both visually and physically. "
+        "description": "This work is a handmade, abstract painting that is experienced both visually and physically. ",
+        "price": "CAD 800.00"
       },
       {
         "id": "painting2",
@@ -17,25 +18,28 @@
         "height": 1200,
         "width": 1080,
         "createdAt": "2020-03-06T16:26:54Z",
-        "description": "This work is a handmade, abstract painting that is experienced both visually and physically. "
+        "description": "This work is a handmade, abstract painting that is experienced both visually and physically. ",
+        "price": "CAD 650.00"
       },
       {
-        "id": "painting4",
+        "id": "painting3",
         "name": "Autumn on the Boulevard",
         "url": "SommeBoulevard.png",
         "height": 1200,
         "width": 1080,
         "createdAt": "2020-03-06T16:26:54Z",
-        "description": "This work is a handmade, abstract painting that is experienced both visually and physically. "
+        "description": "This work is a handmade, abstract painting that is experienced both visually and physically. ",
+        "price": "CAD 1200.00"
       },
       {
-        "id": "painting6",
+        "id": "painting4",
         "name": "Frozen Creek",
         "url": "WinterCreek.png",
         "height": 1200,
         "width": 1080,
         "createdAt": "2020-03-06T16:26:54Z",
-        "description": "This work is a handmade, abstract painting that is experienced both visually and physically. "
+        "description": "This work is a handmade, abstract painting that is experienced both visually and physically. ",
+        "price": "CAD 800.00"
       },
       {
         "id": "painting5",
@@ -44,7 +48,8 @@
         "height": 1200,
         "width": 1080,
         "createdAt": "2020-03-06T16:26:54Z",
-        "description": "This work is a handmade, abstract painting that is experienced both visually and physically. "
+        "description": "This work is a handmade, abstract painting that is experienced both visually and physically. ",
+        "price": "CAD 800.00"
       }
     ],
     "prints": [
@@ -53,56 +58,64 @@
         "name": "A walk in the woods with the pups",
         "url": "https://via.placeholder.com/1080x1200.png",
         "createdAt": "2020-03-06T16:26:54Z",
-        "description": "This work is a handmade, abstract painting that is experienced both visually and physically. "
+        "description": "This work is a handmade, abstract painting that is experienced both visually and physically. ",
+        "price": "CAD 120.00"
       },
       {
         "id": "print1",
         "name": "The Boulevard",
         "url": "https://via.placeholder.com/1080x1200.png",
         "createdAt": "2020-03-06T16:26:54Z",
-        "description": "This work is an intimate and estranging, documentary landscape painting consisting of only scripted dialogue. "
+        "description": "This work is an intimate and estranging, documentary landscape painting consisting of only scripted dialogue. ",
+        "price": "CAD 150.00"
       },
       {
         "id": "print3",
         "name": "A View From the Bottom",
         "url": "https://via.placeholder.com/1080x1200.png",
         "createdAt": "2020-03-06T16:26:54Z",
-        "description": "The work deploys the possibility of ongoing interplay between physical site and displacement. "
+        "description": "The work deploys the possibility of ongoing interplay between physical site and displacement. ",
+        "price": "CAD 80.00"
       },
       {
         "id": "print4",
         "name": "Miss Maple",
         "url": "https://via.placeholder.com/1080x1200.png",
         "createdAt": "2020-03-06T16:26:54Z",
-        "description": "This work is a resonating and contrasting, interactive set of larger-than-life insects "
+        "description": "This work is a resonating and contrasting, interactive set of larger-than-life insects ",
+        "price": "CAD 100.00"
       },
       {
         "id": "painting5",
         "name": "1-way Mirrors",
         "url": "https://via.placeholder.com/1080x1200.png",
         "createdAt": "2020-03-06T16:26:54Z",
-        "description": "The work deploys the use of encaustic and one-point perspective as turning the mundane into the fantastical. "
+        "description": "The work deploys the use of encaustic and one-point perspective as turning the mundane into the fantastical. ",
+        "price": "CAD 80.00"
       },
       {
         "id": "painting6",
         "name": "Evian Bottles Meet Cardboard",
         "url": "https://via.placeholder.com/1080x1200.png",
         "createdAt": "2020-03-06T16:26:54Z",
-        "description": "This work is a traumatic, cartoonesque world in which death and waste are omnipresent "
+        "description": "This work is a traumatic, cartoonesque world in which death and waste are omnipresent ",
+        "price": "CAD 55.00"
       },
       {
         "id": "painting7",
         "name": "Judicial Documents, Sand & Bras",
         "url": "https://via.placeholder.com/1080x1200.png",
         "createdAt": "2020-03-06T16:26:54Z",
-        "description": "This work is arestrained, still-life series of words consisting of tapestries and linens which is reminiscent of wounded defiance."
+        "description": "This work is arestrained, still-life series of words consisting of tapestries and linens which is reminiscent of wounded defiance.",
+        "price": "CAD 130.00"
       },
       {
         "id": "painting8",
         "name": "upended objects and rooms",
         "url": "https://via.placeholder.com/1080x1200.png",
         "createdAt": "2020-03-06T16:26:54Z",
-        "description": "The work deploys Gojira as suggesting innumerable idiosyncrasies of human relations. "
+        "description": "The work deploys Gojira as suggesting innumerable idiosyncrasies of human relations. ",
+        "price": "CAD 80.00"
       }
     ]
   }

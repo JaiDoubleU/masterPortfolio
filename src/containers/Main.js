@@ -8,6 +8,7 @@ import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
+import Prints from "../pages/prints/Prints";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 
@@ -75,10 +76,11 @@ export default class Main extends Component {
                   <Gallery {...props} theme={this.props.theme} />
                 )}
               />
+
               <Route
-                path="/projects"
+                path="/prints"
                 render={(props) => (
-                  <Projects {...props} theme={this.props.theme} />
+                  <Prints {...props} theme={this.props.theme} />
                 )}
               />
               <Route
@@ -149,6 +151,12 @@ export default class Main extends Component {
                 path="/gallery"
                 render={(props) => (
                   <Gallery {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/prints"
+                render={(props) => (
+                  <Prints {...props} theme={this.props.theme} />
                 )}
               />
             </Switch>

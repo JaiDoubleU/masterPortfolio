@@ -9,7 +9,8 @@ export default function Footer(props) {
     <div className="footer-div">
       <Fade>
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
-          {greeting.logo_name} {new Date().getFullYear()}
+          &#169; {new Date().getFullYear()} {greeting.logo_name} All Rights
+          Reserved
           {/* <span role="img">®</span>  */}
         </p>
         {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}

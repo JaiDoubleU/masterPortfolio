@@ -8,7 +8,7 @@ import { galleryHeader } from "../../portfolio.js";
 // import ProjectsData from "../../shared/opensource/projects.json";
 import PaintingData from "../../shared/paintings.json";
 import "./Gallery.css";
-import GalleryImg from "./GalleryImg";
+// import GalleryImg from "./GalleryImg";
 
 class Gallery extends Component {
   render() {
@@ -19,9 +19,9 @@ class Gallery extends Component {
         <div className="basic-gallery">
           <Fade bottom duration={2000} distance="40px">
             <div className="gallery-heading-div">
-              <div className="gallery-heading-img-div">
+              {/* <div className="gallery-heading-img-div">
                 <GalleryImg theme={theme} />
-              </div>
+              </div> */}
               <div className="gallery-heading-text-div">
                 <h1
                   className="gallery-heading-text"
@@ -34,6 +34,12 @@ class Gallery extends Component {
                   style={{ color: theme.secondaryText }}
                 >
                   {galleryHeader["description"]}
+                </p>
+                <p
+                  className="gallery-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  {galleryHeader["price"]}
                 </p>
               </div>
             </div>

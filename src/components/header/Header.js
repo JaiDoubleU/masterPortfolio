@@ -44,7 +44,7 @@ class Header extends Component {
                 <NavLink
                   to="/home"
                   tag={Link}
-                  style={{ backgroundColor: theme.body, color: theme.text }}
+                  style={{ color: theme.text }}
                   activeStyle={{
                     fontWeight: "bold",
                     backgroundColor: theme.highlight,
@@ -84,24 +84,30 @@ class Header extends Component {
                 <NavLink
                   to="/gallery"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                  activeStyle={{
+                    fontWeight: "bold",
+                    backgroundColor: theme.highlight,
+                  }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Gallery
+                  Originals
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  to="/projects"
+                  to="/prints"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                  activeStyle={{
+                    fontWeight: "bold",
+                    backgroundColor: theme.highlight,
+                  }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Projects
+                  Prints
                 </NavLink>
               </li>
               {/* <li>
@@ -120,7 +126,10 @@ class Header extends Component {
                 <NavLink
                   to="/contact"
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                  activeStyle={{
+                    fontWeight: "bold",
+                    backgroundColor: theme.highlight,
+                  }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}

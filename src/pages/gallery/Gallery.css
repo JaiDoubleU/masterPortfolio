@@ -22,7 +22,7 @@
 }
 
 .gallery-heading-text-div {
-  text-align: center;
+  text-align: left;
 }
 
 .gallery-heading-img-div > * {
@@ -31,12 +31,12 @@
 }
 
 .gallery-heading-text {
-  font-size: 56px;
+  /* font-size: 56px; */
   font-weight: 400;
   font-family: "Raleway, sans-serif";
-  line-height: 1.1;
-  text-align: center;
-  margin-top: 80px;
+  line-height: 1;
+  /* text-align: center;
+  margin-top: 80px; */
 }
 
 .gallery-heading-sub-text {
@@ -48,16 +48,13 @@
 
 .gallery-header-detail-text {
   font-size: 20px;
-  line-height: 30px;
-  margin-top: 0px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0px;
   font-family: "Raleway, sans-serif";
 }
 .paintings-heading-text-div {
   text-align: center;
   font-family: "Raleway";
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .paintings-heading-text {
@@ -68,8 +65,8 @@
 .painting-cards-div-main {
   column-count: 2;
   column-gap: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .painting-cards-div-main > .painting-card-div {
@@ -125,7 +122,7 @@
     margin-right: 0px;
     margin-left: 0px;
     line-height: normal;
-    text-align: center;
+    text-align: left;
   }
 
   /* .painting-cards-div-main {

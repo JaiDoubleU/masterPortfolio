@@ -16,3 +16,7 @@
     font-size: 30px;
   }
 }
+
+CSSGrid li {
+  border: 1px solid navy;
+}

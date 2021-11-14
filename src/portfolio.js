@@ -622,8 +622,15 @@ const projectsHeader = {
 
 // Gallery Page
 const galleryHeader = {
-  title: "Paintings",
+  title: "Originals",
   description: "My paintings can be viewed  in person anytime by appointment.",
+  avatar_image_path: "projects_image.svg",
+};
+
+// Prints Page
+const printsHeader = {
+  title: "Prints",
+  description: "My prints can be viewed  in person anytime by appointment.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -634,8 +641,8 @@ const publicationsHeader = {
 };
 
 const paintingsHeader = {
-  title: "Paintings",
-  description: "I like to paint....",
+  title: "Originals",
+  description: "",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -678,6 +685,7 @@ export {
   certifications,
   experience,
   projectsHeader,
+  printsHeader,
   galleryHeader,
   paintingsHeader,
   publicationsHeader,

@@ -2,7 +2,7 @@ import React from "react";
 import "./Greeting.css";
 // import artistAnimation from "../../assets/images/lottiefiles/artist-lottie-1.json";
 // import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
+// import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { contactPageData } from "../../portfolio.js";
@@ -44,7 +44,7 @@ export default function Greeting(props) {
               >
                 {greeting.subTitle}
               </p>
-              <SocialMedia theme={theme} />
+              {/* <SocialMedia theme={theme} /> */}
               {
                 <div className="button-greeting-div">
                   <Button
