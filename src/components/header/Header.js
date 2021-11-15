@@ -18,7 +18,7 @@ const onMouseOut = (event) => {
 class Header extends Component {
   render() {
     const theme = this.props.theme;
-    console.log(theme);
+    const logoPath = greeting["logo_path"];
     const link = settings.isSplash ? "/splash" : "home";
     return (
       <Fade top duration={1000} distance="20px">
@@ -32,7 +32,7 @@ class Header extends Component {
               <img
                 className="carrieLogo"
                 height="75%"
-                src={require(`../../assets/images/${greeting["logo_path"]}`)}
+                src={require(`../../assets/images/${logoPath}`)}
                 alt=""
               />
 
