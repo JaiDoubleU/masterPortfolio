@@ -18,7 +18,7 @@ const onMouseOut = (event) => {
 class Header extends Component {
   render() {
     const theme = this.props.theme;
-    const logoPath = greeting["logo_path"];
+    //const logoPath = greeting["logo_path"];
     const link = settings.isSplash ? "/splash" : "home";
     return (
       <Fade top duration={1000} distance="20px">
@@ -30,10 +30,10 @@ class Header extends Component {
           >
             <NavLink to={link} tag={Link} className="logo">
               <img
+                src={require(`../../assets/images/${greeting["logo_path"]}`)}
                 className="carrieLogo"
                 height="75%"
-                src={require(`../../assets/images/${logoPath}`)}
-                alt=""
+                alt="Carrie Cuthbert's Signature Logo"
               />
 
               {/* < img src = "/Users/shannonj/git/JaiDoubleU/carriePortfolio/src/assets/images/carrie-signature.svg"/> */}
