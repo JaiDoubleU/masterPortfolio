@@ -14,7 +14,7 @@ export default function PaintingCard({ painting, theme }) {
         className="painting-card-div"
         key={painting.id}
         onClick={() => openPaintinginNewTab(painting.url)}
-        style={{ backgroundColor: theme.highlight }}
+        style={{ backgroundColor: theme.headerColor }}
       >
         <img
           width="55%"
@@ -22,10 +22,8 @@ export default function PaintingCard({ painting, theme }) {
           src={require(`../../assets/paintings/${painting["url"]}`)}
           alt=""
         />
-        <div className="painting-name-div">
-          <p className="painting-name" style={{ color: theme.text }}>
-            {painting.name}
-          </p>
+        <div className="painting-name" style={{ color: theme.text }}>
+          {painting.name}
         </div>
         <p className="painting-description" style={{ color: theme.text }}>
           {painting.description}

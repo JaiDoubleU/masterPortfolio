@@ -29,11 +29,19 @@ class Header extends Component {
             style={{ backgroundColor: theme.headerColor }}
           >
             <NavLink to={link} tag={Link} className="logo">
-              <span style={{ color: theme.text }}> </span>
+              <img
+                className="carrieLogo"
+                height="75%"
+                src={require(`../../assets/images/${greeting["logo_path"]}`)}
+                alt=""
+              />
+
+              {/* < img src = "/Users/shannonj/git/JaiDoubleU/carriePortfolio/src/assets/images/carrie-signature.svg"/> */}
+              {/* <span style={{ color: theme.text }}> </span>
               <span className="logo-name" style={{ color: theme.text }}>
                 {greeting.logo_name}
               </span>
-              <span style={{ color: theme.text }}></span>
+              <span style={{ color: theme.text }}></span> */}
             </NavLink>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">

@@ -10,6 +10,7 @@
 
 .prints-heading-div {
   display: flex;
+  margin: 0 25px;
 }
 
 .prints-heading-div > * {
@@ -23,6 +24,7 @@
 
 .prints-heading-text-div {
   text-align: left;
+  margin: 0px auto 0px;
 }
 
 .prints-heading-img-div > * {
@@ -31,7 +33,6 @@
 }
 
 .prints-heading-text {
-  /* font-size: 56px; */
   font-weight: 400;
   font-family: "Raleway, sans-serif";
   line-height: 1;
@@ -63,8 +64,8 @@
 }
 
 .painting-cards-div-main {
-  column-count: 2;
-  column-gap: 5px;
+  column-count: 3;
+  column-gap: 15px;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -75,9 +76,16 @@
   margin: 15px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .painting-cards-div-main {
-    column-count: 3;
+    column-count: 1;
+    column-gap: 15px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .painting-cards-div-main {
+    column-count: 2;
     column-gap: 15px;
   }
 }

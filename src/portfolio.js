@@ -30,13 +30,15 @@ const illustration = {
 const greeting = {
   title: "Welcome ",
   logo_name: "Carrie Cuthbert",
+  logo_path: "carrie-signature.svg",
   nickname: "Official website of artist Carrie Cuthbert. ",
   showNickname: true,
   subTitle:
     "“There are painters who transform the sun to a yellow spot, but there are others who with the help of their art and their intelligence, transform a yellow spot into sun” – Pablo Picasso",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  mailto: "mailto:carrielynncuthbert@gmail.com",
+  mailto:
+    "YwBhAHIAcgBpAGUAbAB5AG4AbgBjAHUAdABoAGIAZQByAHQAQABnAG0AYQBpAGwALgBjAG8AbQA=",
 };
 
 const socialMediaLinks = [
@@ -63,7 +65,8 @@ const socialMediaLinks = [
   },
   {
     name: "Gmail",
-    link: "mailto:carrielynncuthbert@gmail.com",
+    link:
+      "YwBhAHIAcgBpAGUAbAB5AG4AbgBjAHUAdABoAGIAZQByAHQAQABnAG0AYQBpAGwALgBjAG8AbQA=",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -658,7 +661,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://carriecuthbert.com",
+    link: "Y2FycmllbHlubmN1dGhiZXJ0QGdtYWlsLmNvbQ==",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {

@@ -5,8 +5,8 @@
   margin-top: 0;
 }
 .greet-main {
-  width: 90%;
-  padding: 0px 10px;
+  width: 95%;
+  padding: 0px 5px;
   margin: 0px auto;
   margin-top: 0;
 }
@@ -40,7 +40,7 @@
 }
 
 .greeting-nickname {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 2;
   font-family: "Raleway";
   font-style: normal;
@@ -67,6 +67,7 @@
 .greeting-nickname .carrie-profile-image.showMobile {
   display: none;
   margin: 0 auto;
+  max-width: 70%;
 }
 /* Media Query */
 @media (max-width: 1380px) {
@@ -87,7 +88,7 @@
     text-align: center;
   }
   .greeting-nickname {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
   }
   .greeting-text-p {

@@ -1,14 +1,15 @@
 // theme.js
 export const blueTheme = {
   body: "#EDF9FE",
-  text: "#001C55",
+  text: "#2B3850",
   highlight: "#81d3fe",
   dark: "#00072D",
   secondaryText: "#7F8DAA",
   imageHighlight: "#0E6BA8",
   compImgHighlight: "#E6E6E6",
   jacketColor: "#0A2472",
-  headerColor: "#0E6BA885",
+  // headerColor: "#0E6BA885",
+  headerColor: "#93C6E1",
 };
 
 export const brownTheme = {

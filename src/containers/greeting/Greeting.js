@@ -12,6 +12,19 @@ const ContactData = contactPageData.contactSection;
 
 export default function Greeting(props) {
   const theme = props.theme;
+  function decodeEmail() {
+    var binary = atob(
+      "bQBhAGkAbAB0AG8AOgBjAGEAcgByAGkAZQBsAHkAbgBuAGMAdQB0AGgAYgBlAHIAdABAAGcAbQBhAGkAbAAuAGMAbwBtAA=="
+    );
+    const bytes = new Uint8Array(binary.length);
+    for (let i = 0; i < bytes.length; i++) {
+      bytes[i] = binary.charCodeAt(i);
+    }
+    console.error(String.fromCharCode(...new Uint16Array(bytes.buffer)));
+    return String.fromCharCode(...new Uint16Array(bytes.buffer));
+  }
+  greeting.mailto = decodeEmail();
+
   return (
     <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
@@ -32,7 +45,7 @@ export default function Greeting(props) {
 
                 <div className="greeting-image-div">
                   <img
-                    class="carrie-profile-image showMobile"
+                    className="carrie-profile-image showMobile"
                     src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
                     alt=""
                   />
@@ -48,13 +61,15 @@ export default function Greeting(props) {
               {
                 <div className="button-greeting-div">
                   <Button
+                    buttonId="contactMeButton"
                     text="Contact Me"
                     icon=" ✉️ "
-                    newTab={true}
                     href={greeting.mailto}
+                    newTab={true}
                     theme={theme}
                     className="portfolio-repo-btn"
                   />
+
                   {/* <Button text="Contact me" href="#contact" /> */}
                   {/* <Button text="See my resume" newTab={true} href={greeting.resumeLink} /> */}
                 </div>
@@ -63,7 +78,7 @@ export default function Greeting(props) {
           </div>
           <div className="greeting-image-div">
             <img
-              class="carrie-profile-image hideMobile"
+              className="carrie-profile-image hideMobile"
               src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
               alt=""
             />

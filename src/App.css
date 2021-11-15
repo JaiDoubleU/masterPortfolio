@@ -1,6 +1,7 @@
 html,
 body {
   /* padding-top:75px; */
+  text-rendering: optimizeLegibility;
 }
 .App {
   text-align: center;
